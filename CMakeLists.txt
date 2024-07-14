@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(LabelMaker)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 find_package(OpenCV)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
